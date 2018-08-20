@@ -3,6 +3,7 @@ QrCodes com Linux, Shell e Zenity
 
 Em 17 de Setembro de 2015 escrevi um pouco sobre os tal de QrCode.
 Para ler o artigo, acesse http://www.mariomedeiros.eti.br/artigos/index.php?article29/codigos-de-barras-qrcode
+
 Na época eu fiz um script para ser utilizado em modo texto para criar os códigos.
 Depois de alguns outros estudos e curiosidades sobre a geração dos códigos, acabei por fazer algumas alterações.
 Adicionei algumas opções a mais e utilizei o zenity para deixar mais simples a geração dos códigos.
@@ -15,11 +16,13 @@ O script novo gera o qrcode com base em 4 tipos de entradas.
 
 Obs0: as dependências para a utilização do script são:
 
-qrencode: gerador de QRCode 
-imagemagick: manipulador de imagens
-zenity: gerador de janelas 
-gthumb: visualizador de imagens 
+qrencode: gerador de QRCode
 
+imagemagick: manipulador de imagens
+
+zenity: gerador de janelas 
+
+gthumb: visualizador de imagens 
 
 Obs1: utilizei o gthumb para visualizar as imagens porque era o que estava "à mão" para a tarefa. Pode-se utilizar 
 qualquer visualizador para isso. Deve-se somente mudar no código.
