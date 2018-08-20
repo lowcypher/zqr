@@ -15,12 +15,11 @@ O script novo gera o qrcode com base em 4 tipos de entradas.
 
 Obs0: as dependências para a utilização do script são:
 
-#####################################
-#qrencode: gerador de QRCode #
-#zenity: gerador de janelas #
-#gthumb: visualizador de imagens#
-#imagemagick: manipulador de imagens#
-#####################################
+qrencode: gerador de QRCode 
+imagemagick: manipulador de imagens
+zenity: gerador de janelas 
+gthumb: visualizador de imagens 
+
 
 Obs1: utilizei o gthumb para visualizar as imagens porque era o que estava "à mão" para a tarefa. Pode-se utilizar 
 qualquer visualizador para isso. Deve-se somente mudar no código.
